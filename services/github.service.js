@@ -14,10 +14,13 @@ const parseRepo = (repo) => {
 }
 
 const fetchWithAuth = async (url) => {
+    //TODO: When running this program add your github username and PAT here
+    let user = '';
+    let PAT = '';
     const res = await fetch(url,
         {
             headers: new Headers({
-                "Authorization": "Basic " + Buffer.from("debasreedash:976eaf92efca2767427eff656471646b4c4487c0").toString("base64")
+                "Authorization": "Basic " + Buffer.from(`${user}:${PAT}`).toString("base64")
             })
         });
     return res;
