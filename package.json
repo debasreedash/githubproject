@@ -1,0 +1,34 @@
+{
+  "name": "github-pull-requests",
+  "version": "1.0.0",
+  "description": "pulls and displays github pull requests",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "author": "Debbie Dash",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.24.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@types/node": "^14.10.3",
+    "@types/react": "^16.9.49",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "jest-dom": "^4.0.0",
+    "typescript": "^4.0.2"
+  }
+}
